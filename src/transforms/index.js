@@ -56,7 +56,7 @@ export default {
   background,
   border,
   borderColor,
-  borderRadius,
+  //borderRadius,
   borderWidth,
   boxShadow,
   flex,
