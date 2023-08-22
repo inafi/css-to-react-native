@@ -19,7 +19,7 @@ export const transformRawValue = (propName, value) => {
     const isNumberWithoutUnit = numberOnlyRe.test(value)
     if (needsUnit && isNumberWithoutUnit) {
       // eslint-disable-next-line no-console
-      console.warn(`Expected style "${propName}: ${value}" to contain units`)
+      // console.warn(`Expected style "${propName}: ${value}" to contain units`)
     }
     if (!needsUnit && value !== '0' && !isNumberWithoutUnit) {
       // eslint-disable-next-line no-console
